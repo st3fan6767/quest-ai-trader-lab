@@ -1,0 +1,15 @@
+{
+  "name": "ai-traider-lab",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-20",
+  "workers_dev": true,
+  "kv_namespaces": [
+    {
+      "binding": "TRADER_KV",
+      "id": "fcc5ff2fe59340ebaa3488153011c222"
+    }
+  ],
+  "triggers": {
+    "crons": ["5 * * * *"]
+  }
+}
